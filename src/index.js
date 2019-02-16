@@ -1,4 +1,16 @@
 // 入口文件
 
-var a = 10;
-alert(a);
+// 引入vue
+import Vue from 'vue';
+
+new Vue({
+  el: '#app',
+
+  data: {
+    msg: 'hello'
+  },
+
+  // render:function(h) {
+  //   return h('p', '这是一个P');
+  // }
+})
