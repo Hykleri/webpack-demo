@@ -7,7 +7,8 @@ new Vue({
   el: '#app',
 
   data: {
-    msg: 'hello'
+    msg: 'hello',
+    abc: 'tom'
   },
 
   // render:function(h) {
